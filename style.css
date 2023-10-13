@@ -1,0 +1,35 @@
+div{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    left:0;
+    top:0;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    font-size: 22px;
+   
+}
+img{
+    height:100px;
+    width: auto;
+}
+body{
+    background: url("./background.jpg");
+    background-size: cover;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width:500px) {
+    img{
+        height:60px;
+        width: auto;
+    }
+    
+}
